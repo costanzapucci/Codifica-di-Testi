@@ -1,0 +1,173 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Baskerville", serif;
+}
+
+h3 {
+    font-family: "Trattatello", serif;
+}
+
+h4 {
+    font-family: "Trattatello", serif;
+}
+
+
+#navbar {
+    width: 40%;
+    margin: auto;
+    position: relative;
+    font-family: "Trattatello", serif;
+  }
+  
+  #navbar ul{
+      padding: 0;
+      margin-top: 0;
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #navbar li {
+    display: inline;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    width: 100px;
+    padding: 15px;
+  }
+  
+  #navbar li a {
+    color: rgb(0, 0, 0);
+  }
+  
+  #navbar li a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  #navbar li:hover {
+    background: rgb(68, 63, 63);
+  }
+  
+
+#background {
+    z-index: -99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#tit_img {
+    margin:auto;
+    display:flex;
+}
+
+
+
+.container-p8, .container-p9 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.titolo{ 
+    grid-area: 1 / 1 / 2 / 3; 
+    position: relative;
+}
+
+.titolo h3{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.container-legenda{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: 60px;
+    max-width: 275px;
+}
+
+#giallo{
+    color: rgb(204, 192, 22);
+}
+
+#blu{
+    color: rgb(219, 127, 7);
+}
+
+#verde{
+    color:rgb(128, 0, 0);
+}
+
+
+
+li{
+    margin-left: 15px;
+}
+
+h5{
+    margin-left: 75px;
+}
+
+#frontepag8  { width: 87% }
+#frontepag9 {width: 87%}
+.img-wrapper { grid-area: 2 / 1 / 3 / 2; }
+.trascrizione{ grid-area: 2 / 2 / 3 / 3; }
+
+.img-wrapper{
+    margin-left: 10%;
+}
+
+.trascrizione {
+    max-height: 420px;
+    overflow-y: scroll;
+}
+
+.corr {
+    display: none;
+}
+
+
+.espansioni {
+    text-decoration: underline;
+}
+
+
+.elemTerm{
+    background-color: rgb(204, 192, 22);
+
+}
+
+.menzioni{
+    color: rgb(219, 127, 7);
+    Font-style:italic;
+}
+
+.cancellazioni{
+    text-decoration:line-through;
+}
+
+.aggiunte{
+    color:rgb(128, 0, 0);
+}
+
+.container-term{
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.hidden {
+    display: none;
+ }
+
+ #riga_p8 {
+     font-weight: bold;
+ }

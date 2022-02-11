@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="agcp.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- contiene una descrizione bibliografica completa di un file elettronico-->
+            <titleStmt>
+                <title xml:lang="fr" type="main">Trois premières conférences à l'Universitè</title>
+                <title xml:lang="it" type="alt">Le prime tre conferenze all'università</title>
+                <author xml:id="FDS">De Saussure, Ferdinand</author>
+                <respStmt> <!-- dichiarazione di responsabilità per il contenuto di un testo-->
+                    <resp>Traduzione di</resp> 
+                    <name xml:id="EF">Emanuele Fadda</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Edizione digitale - <date>febbraio 2022</date></edition>
+                <editor resp="Aurora Giardina">Aurora Giardina</editor> <!-- fornisce il nome del principale ricercatore responsabile della creazione di un testo elettronico-->
+                <editor resp="Costanza Pucci">Costanza Pucci</editor>
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name xml:id="AG">Aurora Giardina</name>
+                    <name xml:id="CP">Costanza Pucci</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa, PI</pubPlace>
+                <address>
+                    <postCode>56127</postCode>
+                    <name>Italia</name>
+                </address>
+                <date when ="2022">2022</date>
+                <avaibility>
+                    <p>Opera ad accesso libero.</p>
+                </avaibility>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                  <msIdentifier>
+                      <placeName>
+                        <settlement>Ginevra</settlement>
+                        <region key="CH" type="state">Svizzera</region>
+                      </placeName>
+                      <repository ref="https://archives.bge-geneve.ch/ark:/17786/vta01d046d929f231ba" role="library">Biblioteca di Ginevra</repository>
+                      <idno>BGE Ms.fr.3951/1.1-3</idno>
+                  </msIdentifier>  
+                  <physDesc>
+                      <objectDesc>
+                          <supportDesc>
+                              <support>Fogli di <material>carta </material></support>
+                              <extent>precisamente di 30 + 15 + 22 pagine, ovvero 67 pagine, + 1 foglietto.</extent>
+                          </supportDesc>
+                          <layoutDesc>
+                              <p>Le pagine hanno in media 20-30 righe, non considerando cancellature e aggiunte di elementi esterni, note o correzioni.</p>
+                              <layout columns ="1" ruledLines="20 30"></layout>
+                          </layoutDesc>
+                      </objectDesc>
+                      <handDesc>
+                          <p>Scritto da una sola mano, ovvero quella dell'autore.</p>
+                      </handDesc>
+                      <decoDesc>
+                          <p>Con varie sottolineature in corrispondenza di parole chiave.</p>
+                      </decoDesc>
+                      <typeDesc>
+                          <p>Scritto in caratteri corsivi, non sempre di facile comprensione in quanto si tratta di appunti scritti a mano. 
+                            Alcune parole sono sottolineate e altre cancellate.</p>
+                      </typeDesc>
+                  </physDesc>
+                  <msContent>
+                      <msItem>
+                            <title>Trois premières conférences à l'Universitè</title>
+                            <byline>di<docAuthor>Ferdinand De Saussure,</docAuthor>linguista e semiologo svizzero.</byline>
+                            <textLang mainLang="fr">Scritto in francese.</textLang>
+                            <docImprint>Ginevra,<docDate>1891</docDate></docImprint>
+                      </msItem>
+                  </msContent>
+                  <history>
+                      <origin notAfter="1891">
+                          <p>Gli appunti vennero scritti da <persName>Ferdinand De Saussure</persName>
+                            e vennero parzialmente presentati durante le prime tre lezioni del corso di 
+                            fonetica greca e latina del <date when="1891-11-06">6</date>,<date when="1891-11-10"> 10</date>
+                            e <date when="1891-11-13">13 novembre 1891</date> a <placeName>Ginevra</placeName>
+                            ma probabilmente erano destinati alla pubblicazione di una brochure.</p>
+                      </origin>
+                      <acquisition>
+                          <p>Il manoscritto originale venne acquisito dalla Biblioteca di <placeName>Ginevra</placeName>
+                            come molti altri archivi dell'autore donati alla biblioteca in diversi lotti da 
+                            <name type="person">Jacques</name>,<name type="person"> Raymond</name>,
+                            <name type="person"> Madame Bertrand </name>e<name type="person"> Claude De Saussure</name>.
+                          </p>
+                      </acquisition>
+                      <summary>Questo manoscritto si compone di 3 parti, ognuna corrispondente a una prolusione ginevrina.</summary>
+                  </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <textDesc>
+                <channel mode ="w">testo scritto</channel>
+                <constitution type="single"/> <!--descrive la composizione interna di un testo-->
+                <derivation type="original"/>
+                <domain type="education"/> <!--descrive il contesto sociale più importante in cui il testo è stato realizzato o al quale è destinato-->
+                <factuality type="fact"/> <!--descrive la misura in cui il testo può essere considerato fantasioso o non fantasioso-->
+                <interaction type="partial" active="singular" passive="group"/> <!--descrive la natura di qualsiasi interazione tra coloro che producono e sperimentano il testo-->
+                <purpose type="inform" degree="high"/> <!--caratterizza un unico scopo o funzione comunicativa del testo-->
+            </textDesc>
+            <settingDesc>
+                <p>Testi registrati nella Biblioteca di <namePlace>Ginevra</namePlace>.</p>
+                <place>
+                    <country>Svizzera</country>
+                </place>
+                <place>
+                    <settlement>Biblioteca di Ginevra</settlement>
+                </place>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile> <!--contiene una rappresentazione di una fonte scritta sotto forma di un insieme di immagini anziché come testo trascritto o codificato-->
+        <surface>
+            <graphic url="immagini/pag8.png" xml:id="Pag8" width='2146px' height='1454px'/>
+            <zone ulx="562" uly="33" lrx="1793" lry="1450" xml:id="FullPage8"/>
+            <zone ulx="761" uly="90" lrx="1738" lry="150" xml:id="P8_R1"/>
+            <zone ulx="770" uly="154" lrx="1746" lry="189" xml:id="P8_R2"/>
+            <zone ulx="771" uly="198" lrx="1748" lry="236" xml:id="P8_R3"/>
+            <zone ulx="778" uly="244" lrx="1765" lry="286" xml:id="P8_R4"/>
+            <zone ulx="784" uly="297" lrx="1734" lry="330" xml:id="P8_R5"/>
+            <zone ulx="768" uly="343" lrx="1784" lry="375" xml:id="P8_R6"/>
+            <zone ulx="786" uly="401" lrx="1783" lry="426" xml:id="P8_R7"/>
+            <zone ulx="774" uly="448" lrx="1745" lry="480" xml:id="P8_R8"/>
+            <zone ulx="788" uly="500" lrx="1776" lry="538" xml:id="P8_R9"/>
+            <zone ulx="784" uly="555" lrx="1750" lry="594" xml:id="P8_R10"/>
+            <zone ulx="786" uly="612" lrx="1746" lry="651" xml:id="P8_R11"/>
+            <zone ulx="617" uly="671" lrx="782"  lry="712" xml:id="P8_R12_Lat"/>
+            <zone ulx="794" uly="669" lrx="1764" lry="713" xml:id="P8_R12"/>
+            <zone ulx="774" uly="730" lrx="1709" lry="769" xml:id="P8_R13"/>
+            <zone ulx="791" uly="789" lrx="1713" lry="818" xml:id="P8_R14"/>
+            <zone ulx="790" uly="846" lrx="1734" lry="880" xml:id="P8_R15"/>
+            <zone ulx="783" uly="910" lrx="1750" lry="935" xml:id="P8_R16"/>
+            <zone ulx="794" uly="968" lrx="1735" lry="993" xml:id="P8_R17"/>
+            <zone ulx="793" uly="1014" lrx="1720" lry="1048" xml:id="P8_R18"/>
+            <zone ulx="798" uly="1084" lrx="1718" lry="1112" xml:id="P8_R19"/>
+            <zone ulx="811" uly="1141" lrx="1721" lry="1168" xml:id="P8_R20"/>
+            <zone ulx="816" uly="1188" lrx="1728" lry="1218" xml:id="P8_R21"/>
+            <zone ulx="812" uly="1245" lrx="1765" lry="1283" xml:id="P8_R22"/>
+            <zone ulx="816" uly="1298" lrx="1748" lry="1335" xml:id="P8_R23"/>
+            <zone ulx="823" uly="1356" lrx="1758" lry="1386" xml:id="P8_R24"/>
+            <zone ulx="1179" uly="1396" lrx="1736" lry="1411" xml:id="P8_R25"/>
+            <zone ulx="1547" uly="1411" lrx="1788" lry="1434" xml:id="P8_R26"/>
+        </surface>
+        
+        <surface>
+            <graphic url="immagini/pag9.png" xml:id="Pag9" width='2146px' height='1340px'/>
+            <zone ulx="616" uly="16" lrx="1656" lry="1306" xml:id="FullPage9"/>
+            <zone ulx="806" uly="39" lrx="1604" lry="100" xml:id="P9_R1"/>
+            <zone ulx="808" uly="100" lrx="1617" lry="131" xml:id="P9_R2"/>
+            <zone ulx="810" uly="133" lrx="1617" lry="161" xml:id="P9_R3"/>
+            <zone ulx="810" uly="168" lrx="1640" lry="209" xml:id="P9_R4"/>
+            <zone ulx="882" uly="214" lrx="1500" lry="245" xml:id="P9_R5"/>
+            <zone ulx="880" uly="255" lrx="1610" lry="284" xml:id="P9_R6"/>
+            <zone ulx="812" uly="301" lrx="1604" lry="327" xml:id="P9_R7"/>
+            <zone ulx="815" uly="338" lrx="1593" lry="367" xml:id="P9_R8"/>
+            <zone ulx="816" uly="383" lrx="1608" lry="406" xml:id="P9_R9"/>
+            <zone ulx="818" uly="421" lrx="1600" lry="448" xml:id="P9_R10"/>
+            <zone ulx="820" uly="452" lrx="1596" lry="481" xml:id="P9_R11"/>
+            <zone ulx="658" uly="502" lrx="813" lry="533" xml:id="P9_R12_Lat"/>
+            <zone ulx="830" uly="489" lrx="1607" lry="521" xml:id="P9_R12"/>
+            <zone ulx="825" uly="526" lrx="1581" lry="558" xml:id="P9_R13"/>
+            <zone ulx="825" uly="570" lrx="1212" lry="597" xml:id="P9_R14"/>
+            <zone ulx="908" uly="609" lrx="1621" lry="635" xml:id="P9_R15"/>
+            <zone ulx="642" uly="652" lrx="829" lry="701" xml:id="P9_R16_Lat"/>
+            <zone ulx="831" uly="638" lrx="1588" lry="679" xml:id="P9_R16"/>
+            <zone ulx="836" uly="684" lrx="1624" lry="721" xml:id="P9_R17"/>
+            <zone ulx="838" uly="728" lrx="1628" lry="764" xml:id="P9_R18"/>
+            <zone ulx="847" uly="774" lrx="1605" lry="803" xml:id="P9_R19"/>
+            <zone ulx="833" uly="810" lrx="1610" lry="847" xml:id="P9_R20"/>
+            <zone ulx="838" uly="849" lrx="1583" lry="883" xml:id="P9_R21"/>
+            <zone ulx="845" uly="891" lrx="1599" lry="925" xml:id="P9_R22"/>
+            <zone ulx="849" uly="926" lrx="1639" lry="971" xml:id="P9_R23"/>
+            <zone ulx="854" uly="968" lrx="1619" lry="1011" xml:id="P9_R24"/>
+            <zone ulx="857" uly="1005" lrx="1616" lry="1054" xml:id="P9_R25"/>
+            <zone ulx="851" uly="1060" lrx="1428" lry="1091" xml:id="P9_R26"/>
+            <zone ulx="855" uly="1095" lrx="1569" lry="1139" xml:id="P9_R27"/>
+            <zone ulx="696" uly="1140" lrx="1551" lry="1181" xml:id="P9_R28"/>
+            <zone ulx="856" uly="1176" lrx="1611" lry="1218" xml:id="P9_R29"/>
+            <zone ulx="830" uly="1215" lrx="1638" lry="1245" xml:id="P9_R30"/>
+            <zone ulx="828" uly="1248" lrx="1640" lry="1288" xml:id="P9_R31"/>
+            <zone ulx="1250" uly="1282" lrx="1596" lry="1305" xml:id="P9_R32"/>
+        </surface>
+    </facsimile>
+
+    <text xml:lang="fr" xml:id="text-fr" subtype="manuscript">
+        <body>
+            <div type="pagina" n="8">
+                <pb n="8" facs="#Pag8"/> 
+                <!-- pb: page beginning, segna l'inizio di una pagina in un documento impaginato-->
+                <!--facs: indica una o più immagini o porzioni di immagine che corrispondono all'elemento corrente-->
+                    <ab type="paragrafo" n="1" xml:id="Par1_P8">
+                        <lb facs="#P8_R1"/>
+                            <choice><sic>3° </sic><corr>troisièmement, </corr></choice>que partout ces <term ref="#phnms">phénomènes</term>
+                            sont de <choice><sic>2 </sic><corr>deux </corr></choice><term ref="#esp">espèces</term>
+                        <lb facs="#P8_R2"/>
+                            distinctes; <del rend="overstrike">changement phonétique </del>remontant
+                        <lb facs="#P8_R3"/>
+                            à <choice><sic>2</sic><corr>deux </corr></choice><term ref="#cses">causes</term>
+                            ou <term ref="#grpCses">groupes de causes </term>naturellement
+                        <lb facs="#P8_R4"/>
+                            <term ref="#dstnc">distinctes </term><add place="above">et <term ref="#indp">indépendantes</term></add>. 
+                    </ab>
+                    <ab type="paragrafo" n="2" xml:id="Par2_P8">
+                            Il y a d'une part le <term ref="#chPq">changement <emph rend="underline">phonétique</emph></term>
+                        <lb facs="#P8_R5"/>
+                            et d'autre part le <term ref="#chng">changement </term>appelé de divers
+                        <lb facs="#P8_R6"/>
+                            <term ref="#nms">noms </term><add place="above">dont aucun n'est excellent</add>, 
+                            mais dont le <choice><sic>+</sic><corr>plus </corr></choice>usité est le 
+                            <term ref="#chAn">changement <emph rend="underline">analogique</emph></term>.
+                    </ab>
+                    <ab type="paragrafo" n="3" xml:id="Par3_P8">
+                        <lb facs="#P8_R7"/>
+                            Nous verrons immédiatement pourquoi. 
+                    </ab>
+                            <add place="inline">-</add><del rend="overstrike">Le premier ordre de change-</del>
+                        <lb facs="#P8_R8"/>
+                            <del rend="overstrike">-ments</del>
+                    <ab type="paragrafo" n="4" xml:id="Par4_P8">
+                        <lb/>
+                            On peut <term ref="#opp">opposer</term>
+                            sous beaucoup de <term ref="#PdV">points de vue</term>
+                        <lb facs="#P8_R9"/>
+                            différents ces <choice><sic>2</sic><corr>deux</corr></choice>
+                            <del rend="overstrike">ordres de</del>
+                            <term ref="#grFac">grands facteurs </term>de renou-
+                        <lb facs="#P8_R10" break="no" rend="double stroke"/> <!--si considera che l'elemento con questo attributo non segni la fine di alcun token ortografico adiacente indipendentemente dalla presenza di qualsiasi spazio bianco adiacente-->
+                            vellement <term ref="#lingque">linguistique</term>,
+                            <del rend="overstrike"><gap reason="illegible" extent="9" unit="chars"/></del>en disant par
+                        <lb facs="#P8_R11"/>
+                            <abbr>ex<am>.</am></abbr><term ref="#exmp"><expan>ex<ex>emple </ex></expan></term>
+                            que le <choice><sic>1er </sic><corr>premier </corr></choice><del rend="overstrike">représente </del>le côté
+                            <term ref="#physio">physiologique </term>et <term ref="#phys">physique</term>
+                        <lb facs="#P8_R12_Lat"/>
+                            <del rend="overstrike"><gap reason="illegible" extent="7" unit="chars"/></del>
+                        <lb facs="#P8_R12"/>
+                            de<del rend="overstrike">de la</del><term ref="#par">parole</term>, tandis que le <choice><sic>2d </sic><corr>second </corr></choice>
+                            <del rend="overstrike">dépend du </del><add place="above">répond au </add>côté <term ref="#psyque">psycho-</term>
+                        <lb facs="#P8_R13" break="no" rend="double stroke"/>
+                            <term ref="#psyque">logique </term><choice><sic>&#38; </sic></choice><term ref="#mntl">mental </term>du même <term ref="#act">acte</term><!--& come entità xml è &#38;-->
+                    </ab>
+                    <ab type="paragrafo" n="5" xml:id="Par5_P8">
+                            <add place="inline">-</add> que le <choice><sic>1er</sic><corr>premier</corr></choice>
+                        <lb facs="#P8_R14"/>
+                            est <term ref="#incsc">inconscient </term><del rend="overstrike">par rapport</del>
+                            tandis que le <choice><sic>2d </sic><corr>second </corr></choice> est
+                        <lb facs="#P8_R15"/>
+                            <term ref="#csc">conscient</term>,
+                    </ab>
+                    <ab type="paragrafo" n="6" xml:id="Par6_P8">
+                            toujours en se rappelant que la <term ref="#ntn">notion</term>
+                        <lb facs="#P8_R16"/>
+                            de <term ref="#cscnc">conscience </term>est éminemment relative, de sorte qu'il
+                        <lb facs="#P8_R17"/>
+                            ne s'agit que de <choice><sic>2</sic><corr>deux</corr></choice>
+                            <term ref="#degr">degrés </term><del rend="overstrike">dunt le </del>de conscience dont
+                        <lb facs="#P8_R18"/>
+                            le <choice><sic>+</sic><corr>plus </corr></choice> élevé est encore de l'<term ref="#incscnc">inconscience <add place="above">pure </add></term>comparé
+                        <lb facs="#P8_R19"/>
+                            au <term ref="#degr">degré </term>de <term ref="#reflx">réflexion </term>qui accompagne la 
+                            <choice><sic>+part</sic><corr>plupart </corr></choice> de 
+                        <lb facs="#P8_R20"/>
+                            nos <term ref="#act">actes</term><add place="inline">-</add>
+                    </ab>
+                    <ab type="paragrafo" n="7" xml:id="Par7_P8">
+                            on <term ref="#opp">oppose </term>aussi souvent ces <choice><sic>2</sic><corr>deux</corr></choice>
+                            <term ref="#ordrs">ordres</term>
+                        <lb facs="#P8_R21"/>
+                            de <term ref="#fts">faits </term>en disant que l'<choice><sic>1</sic><corr>un </corr></choice> concerne les <term ref="#sn">sons </term>et
+                        <lb facs="#P8_R22"/>
+                            l'autre les <term ref="#frms">formes <add place="above">grammaticales</add></term>,
+                    </ab>
+                    <ab type="paragrafo" n="8" xml:id="Par8_P8">
+                            ce qui ne représente pas une <term ref="#idee">idée </term>claire
+                        <lb facs="#P8_R23"/>
+                            parce que les <term ref="#frm">formes </term><add place="above">de la <term ref="#lng">langue</term></add>
+                            ne sont autre <del rend="overstrike"><gap reason="illegible" extent="1" unit="chars"/></del>chose que les <term ref="#sn">sons</term>
+                    </ab>
+                    <ab type="paragrafo" n="9" xml:id="Par9_P8">
+                        <lb facs="#P8_R24"/>
+                            mais on peut dire que l'<choice><sic>1</sic><corr>un </corr></choice>attaque la <term ref="#frm">forme </term>par le côté
+                        <lb facs="#P8_R25"/>
+                            du <term ref="#sn">son </term>et que l'autre l'attaque par le côte 
+                        <lb facs="#P8_R26"/>
+                            de l'<term ref="#idee">idée</term>;
+                    </ab>
+            </div> 
+            <div type="pagina" n="9">
+                <pb n="8" facs="#Pag9"/>
+                    <ab type="paragrafo" n="1" xml:id="Par1_P9">
+                        <lb facs="#P9_R1"/>
+                            <add place="top">-</add>on peut dire en outre que l'un représente <del rend="overstrike">une </del>des <term ref="#oprtns">opérations</term>
+                        <lb facs="#P9_R2"/>
+                            purement <term ref="#mecnqs"><emph rend="underline">mécaniques</emph></term>, c'est-à-dire 
+                            <del rend="overstrike">qui n'à jàmais un but assignalle </del>
+                        <lb facs="#P9_R3"/>
+                            <del rend="overstrike">n'os </del>où on ne peut découvrir <del rend="overstrike">un </del>
+                            <add place="above">ni </add><term ref="#but">but </term><add place="above">ni
+                            <term ref="#intnt">intention</term></add>, et l'autre des <term ref="#oprtns">opé-</term>
+                        <lb facs="#P9_R4" break="no" rend="double stroke"/>
+                            <term ref="#oprtns">rations </term><term ref="#intllgs"><emph rend="underline">intelligentes</emph></term>, où il est possible de
+                            <term ref="#dcvr">découvrir </term><choice><sic>1</sic><corr>un</corr></choice>
+                            <term ref="#but">but </term><add place="below">et 1 sens</add>.
+                    </ab>
+                        <lb facs="#P9_R5"/>
+                            <del rend="overstrike">donner 1 sutre, même très générale tt</del>
+                        <lb facs="#P9_R6"/>
+                    <ab type="paragrafo" n="2" xml:id="Par2_P9">
+                            L'<term ref="#obsvtn">observation </term>et l'<term ref="#anlys">analyse</term> de ces <choice><sic>2</sic><corr>deux </corr></choice><term ref="#ordrs">ordres </term>de
+                        <lb facs="#P9_R7"/>
+                            <term ref="#phnms">phénomènes </term>constituent l'occupation presque unique du
+                        <lb facs="#P9_R8"/>
+                            <term ref="#lngst">linguiste</term>, sur quelque <term ref="#lng">langue</term> que porte son attention,
+                        <lb facs="#P9_R9"/>
+                            <del rend="overstrike">N ne peut aussi </del> et cette <term ref="#tch">tâche </term>est sans fin même
+                            <del rend="overstrike">sur</del>
+                        <lb facs="#P9_R10"/>
+                            en se bornant à des périodes limitées. 
+                    </ab>
+                    <ab type="paragrafo" n="3" xml:id="Par3_P9">
+                            Je ne puis donc
+                        <lb facs="#P9_R11"/>
+                            songer à entrer <del rend="overstrike">en ce moment</del> dans une <term ref="#descrptn">description</term>
+                        <lb facs="#P9_R12_Lat"/>
+                            ou <choice><sic>1</sic><corr>une </corr></choice><term ref="#clssfctn"> classification</term>
+                        <lb facs="#P9_R12"/>
+                            même absolument <term ref="#genrl">générale </term>et approximative de tout ce qui
+                        <lb facs="#P9_R13"/>
+                            est contenu dans l'<term ref="#idee">idée </term>de <term ref="#chgmtPh"><emph rend="underline">changement phonétique </emph></term>et dans celle de
+                        <lb facs="#P9_R14"/>
+                            <term ref="#chgmtAn">changement par analogie</term><del rend="overstrike"> anal</del>.
+                    </ab>
+                    <ab type="paragrafo" n="4" xml:id="Par4_P9">
+                        <lb facs="#P9_R15"/>  
+                            Quelques <term ref="#exmps">exemples </term>en prenant d'abord le <abbr>phén<am>.</am></abbr><term ref="#phAn"><expan>phén<ex>omène </ex></expan>d'analogie</term>,
+                        <lb facs="#P9_R16_Lat"/>
+                            <abbr>phén<am>.</am></abbr><term ref="#phnm"><expan>phén<ex>omène</ex></expan></term> de <abbr>transf<am>.</am></abbr><term ref="#trnsft"><expan>transf<ex>ormation </ex></expan>intelligente</term>.
+                    </ab>
+                    <ab type="paragrafo" n="5" xml:id="Par5_P9">
+                        <lb facs="#P9_R16"/>
+                            On ne peut mieux se rendre compte <del rend="overstrike">de la vivacité des faits </del><add place="above">de ce que c'est</add>
+                        <lb facs="#P9_R17"/>
+                            qu'en <term ref="#ectnt">écoutant </term><term ref="prlr">parler </term>quelques minutes un enfant de <choice><sic>3</sic><corr>trois </corr></choice> ou
+                        <lb facs="#P9_R17"/>
+                        <choice><sic>4</sic><corr>quatre </corr></choice> ans.
+                    </ab>
+                    <ab type="paragrafo" n="6" xml:id="Par6_P9">
+                            Son <term ref="lgage">langage </term><del rend="overstrike">et </del>est un véritable tissu de <term ref="#frmAn">forma-</term>
+                        <lb facs="#P9_R18" break="no" rend="double stroke"/>
+                            <term ref="#frmAn">tions analogiques </term>, qui nous font sourire, mais qui
+                        <lb facs="#P9_R19"/>
+                            offrent dans toute sa pureté <add place="above">et sa candeur </add>le <term ref="#prncp">principe </term>
+                            <del rend="ovestrike">du</del><del rend="ovestrike"><gap reason="illegible" extent="5" unit="chars"/></del><del rend="overstrike">d'où</del>
+                        <lb facs="#P9_R20"/>
+                            <del rend="ovestrike">dipe </del>qui ne cesse d'être à l'œuvre <abbr>d</abbr><expan>d<ex>ans </ex></expan>
+                            l'<abbr>hist<am>.</am></abbr><term ref="#hisLngs"><expan>hist<ex>oire </ex></expan>des langues</term>.
+                    </ab>
+                    <ab type="paragrafo" n="7" xml:id="Par7_P9">
+                        <lb facs="#P9_R21"/>
+                            <mentioned xml:lang="fr" rend="underline">Venirai</mentioned>.<del rend="ovestrike"><gap reason="illegible" extent="5" unit="chars"/></del>
+                            <add place="above">Comment </add><mentioned xml:lang="fr">je <emph rend="underline">venirai</emph></mentioned>
+                            <choice><sic>.</sic><corr>?</corr></choice>
+                    </ab>
+                    <ab type="paragrafo" n="8" xml:id="Par8_P9">
+                            Pour cela il faut premièrement 
+                        <lb facs="#P9_R22"/>
+                            que, l'enfant connaisse
+                            <mentioned xml:lang="fr" rend="underline">venir </mentioned>et qu'il
+                            <term ref="#assc">associe </term><abbr>d</abbr><expan>d<ex>ans</ex></expan>
+                            son <term ref="#esprt">esprit</term>
+                        <lb facs="#P9_R23"/>
+                            <del rend="overstrike">grâce a </del>l'<term ref="#idee">idéè </term>contenue
+                            <abbr>d</abbr><expan>d<ex>ans </ex></expan><mentioned xml:lang="fr" rend="underline">venir </mentioned>et celle qu'il
+                            <del rend="overstrike">a voulu </del>veut <term ref="#exmprmr">exprimer</term>;
+                    </ab>
+                    <ab type="paragrafo" n="9" xml:id="Par9_P9">
+                        <lb facs="#P9_R24"/>
+                            mais cela ne suffit pas; il faut <choice><sic></sic><corr>, </corr></choice><choice><sic>2° </sic><corr>deuxièmement </corr></choice>
+                            <choice><sic></sic><corr>,</corr></choice>qu'il ait entendu
+                        <lb facs="#P9_R25"/>
+                            dire <mentioned xml:lang="fr" rend="underline">punir </mentioned>et
+                            <mentioned xml:lang="fr" rend="underline">je te punirai </mentioned>ou
+                            <mentioned xml:lang="fr" rend="underline">choisir</mentioned>
+                            <choice><sic></sic><corr>[je choisirai]</corr></choice>
+                        <lb facs="#P9_R26"/>
+                    </ab>
+                            Alors se produit le <abbr>phén</abbr><term ref="#phnm"><expan>phén<ex>omène </ex></expan></term>
+                            <del rend="overstrike">choi </del><!--scarabocchio:chiedi al prof--><del rend="overtyped">ch </del>
+                            <mentioned xml:lang="fr"><w>pu<emph rend="underline">nir</emph></w>:pu
+                            <choice><sic></sic><corr>nirai=venir:venirai</corr></choice></mentioned><!--ricontrollare-->
+                        <lb facs="#P9_R27"/>
+                    <ab type="paragrafo" n="10" xml:id="Par10_P9">
+                        <lb/>
+                            Rien de <choice><sic>+</sic><corr>plus</corr></choice> 
+                            <term ref="#consq">conséquent</term>, rien de <choice><sic>+</sic><corr>plus</corr></choice> 
+                            <term ref="#logq">logique </term>et de <choice><sic>+</sic><corr>plus </corr></choice> juste que le 
+                            <term ref="#rsnmnt">raisonnement</term>
+                            qui contuit <choice><sic></sic><corr>à<mentioned xml:lang="fr">venirai</mentioned>.</corr></choice>
+                        <lb facs="#P9_R27"/>
+                    </ab>
+                    <ab type="paragrafo" n="11" xml:id="Par11_P9">
+                            Remarquons <add place="above">tt de suite </add><choice><sic>1</sic><corr>un </corr></choice> des
+                            <term ref="#crctrs">caractères </term>de ce <abbr>phén<am>.</am></abbr><term ref="#phnm"><expan>phén<ex>omène</ex></expan></term>
+                            <choice><sic></sic><corr>:</corr></choice><del rend="overstrike">Ce n'est p</del>
+                            <emph rend="underline"><abbr>d</abbr><expan>d<ex>ans </ex></expan><choice><sic>1 </sic><corr>un </corr></choice>sens</emph><choice><sic></sic><corr>,</corr></choice>
+                        <lb facs="#P9_R28"/>
+                            ce n'est pas <choice><sic>1 </sic><corr>une </corr></choice><abbr>transf<am>.</am></abbr><term ref="#trsfmtn"><expan>transf<ex>ormation</ex></expan></term>
+                            <emph rend="underline">C'est <choice><sic>1 </sic><corr>une </corr></choice><term ref="#crtn">création</term></emph>;<add place="inline">-</add>mais
+                            <del rend="overstrike">d 1 aut </del>en dernière
+                        <lb facs="#P9_R29"/>
+                            analyse ce n'est qu' <choice><sic>1</sic><corr>une </corr></choice><abbr>transf<am>.</am></abbr><term ref="#trsfmtn"><expan>transf<ex>ormation</ex></expan></term>
+                            <choice><sic></sic><corr>,</corr></choice>parce que tous les <term ref="#elmnts">éléments </term>de
+                            <mentioned xml:lang="fr" rend="underline">venirai</mentioned>
+                        <lb facs="#P9_R30"/>
+                            sont contenus et donnés
+                    </ab>
+            </div>
+
+            <!--Traduzione in italiano delle pp. 8 e 9 del manoscritto-->
+            <div type="traduzione" n="1">
+                <ab n="1" corresp="#Par1_P8" xml:lang="it">
+                    in terzo luogo, che ovunque tali fenomeni sono di due specie distinte; risalenti a due cause o gruppi di cause naturalmente distinte e indipendenti.
+                </ab>
+                <ab n="2" corresp="" xml:lang="it">
+                    Vi è, da una parte, il cambiamento fonetico e dall'altra il cambiamento chiamato con varie denominazioni, di cui nessuna è ottima, ma tra le quali la più usuale è quella di 'cambiamento analogico'.
+                </ab>
+                <ab n="3" xml:lang="it">
+                    Vedremo subito il perchè.
+                </ab>
+                <ab n="4" xml:lang="it">
+                    Questi due grandi fattori di rinnovamento linguistico si possono opporre sotto vari punti di vista differenti, dicendo per esempio che il primo rappresenta il lato fisiologico e fisico della parole, mentre il secondo corrisponde al lato psicologico e mentale dello stesso atto-,
+                </ab>
+                <ab n="5" xml:lang="it">
+                    che il primo è inconscio, mentre il secondo è cosciente,
+                </ab>
+                <ab n="6" xml:lang="it">
+                    ricordandosi sempre che la nozione di coscienza è eminentemente relativa, di modo che non si tratta che di due gradi di coscienza dei quali il più elevato è ancora incoscienza pura, se paragonato al grado di riflessione che accompagna la maggior parte dei nostri atti-,
+                </ab>
+                <ab n="7" xml:lang="it">
+                    spesso si oppongono anche questi due ordini di fatti, dicendo che l'uno concerne i suoni e l'altro le forme grammaticali,
+                </ab>
+                <ab n="8" xml:lang="it">
+                    il che non rappresenta un'idea chiara, perchè le forme della lingua non sono altra cosa che i suoni,
+                </ab>
+                <ab n="9" xml:lang="it">
+                    ma si può dire che l'uno attacca la forma del lato del suono e l'altro l'attacca da quello dell'idea; 
+                </ab>
+            </div>
+
+            <div type="traduzione" n="2">
+                <ab n="1" xml:lang="it">
+                    si può dire inoltre che l'uno rappresenta operazioni puramente meccaniche, cioè in cui non si può ritrovare nè scopo nè intenzione, e l'altro operazioni intelligenti, in cui è possibile scoprire uno scopo e un senso.
+                </ab>
+                <ab n="2" xml:lang="it">
+                    L'osservazione e l'analisi di questi due ordini di fenomeni costituiscono l'occupazione quasi unica del linguista, su qualsiasi lingua vanta la sua attenzione, e questo compito è senza fine, anche attenendosi a periodi limitati.
+                </ab>
+                <ab n="3" xml:lang="it">
+                    Non posso dunque minimamente pensare di addentrarmi in una descrizione o una classificazione sia pure assolutamente generale e approssimativa di tutto ciò che è contenuto nell'idea di cambiamento fonetico e in quella di cambiamento per analogia.
+                </ab>
+                <ab n="4" xml:lang="it">
+                    Facciamo alcuni esempi, prendendo anzitutto il fenomeno d'analogia, il fenomeno di trasformazione intelligente
+                </ab>
+                <ab n="5" xml:lang="it">
+                    Il modo migliore per rendersi conto di ciò che esso sia è sentir parlare per qualche minuto un bambino di tre o quattro anni.
+                </ab>
+                <ab n="6" xml:lang="it">
+                    Il suo linguaggio è un vero e proprio tessuto di formazioni analogiche, che ci fanno sorridere, ma che offrono in tutta la sua purezza e il suo candore il principio che non cessa d'essere all'opera nella storia delle lingue.
+                </ab>
+                <ab n="7" xml:lang="it">
+                    Venirai. Come je venirai?
+                </ab>
+                <ab n="8" xml:lang="it">
+                    Perchè ciò avvenga bisogna che, in primo luogo, il bambino conosca venir e che associ nella sua mente l'idea contenuta in venir e quella che egli vuole esprimere;
+                </ab>
+                <ab n="9" xml:lang="it">
+                    ma non basta; bisogna che, in secondo luogo, egli abbia sentito dire punir e je te punirei o choisir [je choisirai]
+                </ab>
+                <ab n="10" xml:lang="it">
+                    Allora si produce il fenomeno punir:punirai=venir:venirai.
+                </ab>
+                <ab n="11" xml:lang="it">
+                    Niente di più conseguente, niente di più logico e di più giusto del ragionamento che porta a venirai.
+                </ab>
+                <ab n="12" xml:lang="it">
+                    Rimarchiamo subito uno dei caratteri di questo fenomeno: in un certo senso, non è una trasformazione, è una creazione, 
+                </ab>
+                <ab n="13" xml:lang="it">
+                    ma in ultima analisi non è che una trasformazione, perchè tutti gli elementi di venirai sono contenuti e dati 
+                </ab>
+            </div>
+        </body>
+
+        <back>
+            <list type="elementiTerminologici" rend="numbered"><!--list: contiene qualsiasi sequenza di elementi organizzati come un elenco-->
+                <label>
+                    <term xml:id="phnms" xml:lang="fr">phénomènes</term>
+                    <term ref="#phnms" xml:lang="it">fenomeni</term>
+                </label>
+                <item n="1">
+                    <gloss target="#phnms" source="https://www.treccani.it/vocabolario/fenomeno/">
+                        Fenomeno: ciò che appare, che è conoscibile attraverso i sensi.
+                    </gloss>
+                </item>  
+
+                <label>
+                    <term xml:id="chPq" xml:lang="fr">changement phonétique</term>
+                    <term ref="#chPq" xml:lang="it">cambiamento fonetico</term>
+                </label>
+                <item n="2">
+                    <gloss target="#chPq" source="https://it.wikipedia.org/wiki/Cambiamento_linguistico#Cambiamento_fonetico">
+                        Cambiamento fonetico: si parla di mutamento fonetico quando ci si trova di fronte a un cambiamento di abitudine nell'articolare un suono.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="nms" xml:lang="fr">noms</term>
+                    <term ref="#nms" xml:lang="it">denominazioni</term>
+                </label>
+                <item n="3">
+                    <gloss target="nms" source="https://www.treccani.it/vocabolario/denominazione">
+                        Denominazione: nome stesso con cui una persona o una cosa viene indicata.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="lingque" xml:lang="fr">linguistique</term>
+                    <term ref="#lingque" xml:lang="it">linguistico</term>
+                </label>
+                <item n="4">
+                    <gloss target="#lingque" source="https://www.treccani.it/vocabolario/linguistico/">
+                        Linguistico: che riguarda la lingua, il linguaggio, come fatto sociale, o particolari aspetti, caratteri e manifestazioni della lingua.
+                    </gloss>
+                </item>
+            
+                <label>
+                    <term xml:id="physio" xml:lang="fr">physiologique</term>
+                    <term ref="#physio" xml:lang="it">fisiologico</term>
+                </label>
+                <item n="5">
+                    <gloss target="#physio" source="https://www.treccani.it/vocabolario/fisiologico/">
+                        Fisiologico: relativo alla fisiologia come scienza che studia le funzioni organiche degli esseri viventi.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="phys" xml:lang="fr">physique</term>
+                    <term ref="#phys" xml:lang="it">fisico</term>
+                </label>
+                <item n="6">
+                    <gloss target="#phys" source="">
+                        Fisico: l’aggettivo fisico si usa per indicare ciò che è attinente alla natura e ai suoi fenomeni e anche alla scienza che li studia, la fisica (ricerche fisiche). Si dice inoltre di ciò che è relativo al corpo umano.
+                    </gloss>
+                </item>
+                
+                <label>
+                    <term xml:id="par" xml:lang="fr">parole</term>
+                    <term ref="#par" xml:lang="it">parole</term>
+                </label>
+                <item n="7">
+                    <gloss target="#par" source="https://www.linkuaggio.com/2012/04/ferdinand-de-saussure-langue-e-parole.html">
+                        Parole: l'atto di 'parole'è un fatto individuale, perché è rappresentato dalle singole produzioni di ognuno, a tutti i livelli linguistici; è la concretizzazione della 'langue'.
+                    </gloss>
+                </item>
+                
+                <label>
+                    <term xml:id="psyque" xml:lang="fr">psychologique</term>
+                    <term ref="#psyque" xml:lang="it">psicologico</term>
+                </label>
+                <item n="8">
+                    <gloss target="#psyque" source="https://www.treccani.it/vocabolario/psicologico/">
+                        Psicologico: relativo alla psicologia, che riguarda o interessa la psicologia; che riguarda la conoscenza, le manifestazioni, i processi e i meccanismi della psiche.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="incsc" xml:lang="fr">inconscient</term>
+                    <term ref="#incsc" xml:lang="it">incoscio</term>
+                </label>
+                <item n="9">
+                    <gloss target="#incsc" source="https://www.treccani.it/vocabolario/inconscio_res-78e9b853-0020-11de-9d89-0016357eee51/">
+                        Inconscio: di fenomeno interno (impulso, inclinazione, istinto, atto, ecc.) che non giunge a livello della coscienza; o, più genericam., di processo psichico di cui il soggetto non è consapevole.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="csc" xml:lang="fr">conscient</term>
+                    <term ref="#csc" xml:lang="it">cosciente</term>
+                </label>
+                <item n="10">
+                    <gloss target="#csc" source="https://www.treccani.it/vocabolario/cosciente/">
+                        Cosciente: che ha coscienza, che è consapevole delle proprie azioni.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="ntn" xml:lang="fr">notion</term>
+                        <term ref="#ntn" xml:lang="it">nozione</term>
+                </label>
+                <item n="11">
+                    <gloss target="#ntn" source="https://www.treccani.it/vocabolario/nozione/">
+                        Nozione: elemento fondamentale, di base, per l’apprendimento di una disciplina.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="sn" xml:lang="fr">sons</term>
+                    <term ref="#sn" xml:lang="it">suoni</term>
+                </label>
+                <item n="12">
+                    <gloss target="#sn" source="https://www.treccani.it/vocabolario/suono/">
+                        Suono: la causa delle sensazioni acustiche, consistente in vibrazioni di un mezzo (per lo più l’aria), che possono essere eccitate in esso o ad esso trasmesse dalle vibrazioni di un corpo, e che a loro volta eccitano l’orecchio.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="frms" xml:lang="fr">formes grammaticales</term>
+                    <term ref="#frms" xml:lang="it">forme grammaticali</term>
+                </label>
+                <item n="13">
+                    <gloss target="#frms" source="https://qualcherisposta.it/che-cosa-vuol-dire-grammaticali">
+                        Forme grammaticali: verbo, sostantivo, congiunzione, interiezione, aggettivo, avverbio, articolo, aggettivo numerale, preposizione e pronome.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="lng" xml:lang="fr">langue</term>
+                    <term ref="#lng" xml:lang="it">lingua</term>
+                </label>
+                <item n="14">
+                    <gloss target="#lng" source="https://www.treccani.it/vocabolario/lingua/">
+                        Lingua: Sistema di suoni articolati distintivi e significanti (fonemi), di elementi lessicali, cioè parole e locuzioni (lessemi e sintagmi), e di forme grammaticali (morfemi).
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="sen" xml:lang="fr">sens</term>
+                    <term ref="#sen" xml:lang="it">senso</term>
+                </label>
+                <item n="15">
+                    <gloss target="#sen" source="https://www.tesionline.it/appunti/lettere-e-filosofia/teoria-della-letteratura/la-distinzione-tra-senso-e-significato-nel-testo-letterario/527/30">
+                        Senso: è l'oggetto dell'interpretazione del testo.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="anlys" xml:lang="fr">analyse</term>
+                    <term ref="#anlys" xml:lang="it">analisi</term>
+                </label>
+                <item n="16">
+                    <gloss target="#anlys" source="https://www.treccani.it/vocabolario/analisi/">
+                        Analisi: scomposizione di un tutto, concreto o astratto, nelle parti che lo costituiscono.
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="lngst" xml:lang="fr">linguiste</term>
+                    <term ref="#lngst" xml:lang="it">linguista</term>
+                </label>
+                <item n="17">
+                    <gloss target="#lngst" source="https://www.treccani.it/vocabolario/linguista/">
+                        Linguista: chi si dedica allo studio delle lingue (o anche soltanto, o in modo specifico, della propria lingua), soprattutto da un punto di vista teorico, sistematico e storico; studioso di linguistica (in questo sign., è oggi sinon. più com. di glottologo)
+                    </gloss>
+                </item>
+
+                <label>
+                    <term xml:id="clssfctn" xml:lang="fr">classification</term>
+                    <term ref="#clssfctn" xml:lang="it">classificazione</term>
+                </label>
+                <item n="18">
+                    <gloss target="#clssfctn" source="https://www.treccani.it/vocabolario/classificazione/">
+                        Classificazione: operazione, effetto, modo del classificare; divisione o distribuzione in classi, cioè in categorie.
+                    </gloss>
+                </item>
+
+
+                <label>
+                    <term xml:id="rsnmnt" xml:lang="fr">raisonnement</term>
+                    <term ref="#rsnmnt" xml:lang="it">ragionamento</term>
+                </label>
+                <item n="19">
+                <gloss target="#rsnmnt" source="https://www.treccani.it/enciclopedia/ragionamento/">
+                    Ragionamento: nella logica antica, ogni processo discorsivo della mente o ragione, che, muovendo da alcune premesse, perviene a una conclusione.
+                </gloss>
+                </item>
+            </list>
+
+
+
+            <listPerson>
+                <person xml:id="FDS">
+                    <author>
+                        <persName role="linguist">
+                            <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure"/>
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </persName> 
+                    </author>
+                </person>
+            </listPerson>
+
+            <listPlace>
+                <place xml:id="GN">
+                    <placeName>Ginevra</placeName>
+                    <settlement>Ginevra</settlement>
+                    <country>Svizzera</country>
+                </place>
+                <place xml:id="Roma">
+                    <placeName>Roma</placeName>
+                    <settlement>Lazio</settlement>
+                    <country>Italia</country>
+                </place>
+                <place xml:id="Bari">
+                    <placeName>Bari</placeName>
+                    <settlement>Puglia</settlement>
+                    <country>Italia</country>
+                </place>
+            </listPlace>
+            
+            <listBibl>
+                <bibl xml:id="corsoDiLing">
+                    <author ref="#FDS">
+                        <forename>Ferdinand</forename>
+                        <surname>De Saussure</surname>
+                    </author>
+                    <author xml:id="TDM">
+                        <forename>Tullio</forename>
+                        <surname>De Mauro</surname>
+                    </author>
+                    <title type="main">Corso di linguistica generale</title>
+                    <tytle type="sub">Introduzione, traduzione e commento di Tullio De Mauro</tytle>
+                    <pubPlace>
+                        <placeName xml:id="Roma">Roma</placeName>
+                    </pubPlace>
+                    <pubPlace>
+                        <placeName xml:id="Bari">Bari</placeName>
+                    </pubPlace>
+                    <date when="1976">1976</date>
+                    <publisher>Editori Laterza</publisher>
+                </bibl>
+                <bibl xml:id="CFS62" xml:lang="french" source="https://www.jstor.org/stable/41427851?seq=1#metadata_info_tab_contents">
+                    <author xml:id="AC">
+                        <forename>Alessandro</forename>
+                        <surname>Chidichimo</surname>
+                    </author>
+                    <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+                    <pubPlace ref="#GN">
+                        <placeName ref="#GN">Ginevra</placeName>
+                    </pubPlace>
+                    <publisher>Librairie Droz</publisher>
+                    <date when="2009">2009</date>
+                </bibl>
+            </listBibl>
+            
+        </back>
+    </text>
+</TEI>
+</teiCorpus>
